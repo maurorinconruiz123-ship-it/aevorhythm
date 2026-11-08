@@ -1,7 +1,7 @@
 // Don't put any keys in code. See https://docs.stripe.com/keys-best-practices.
 // La clave secreta se define como variable de entorno STRIPE_SECRET_KEY en Netlify.
-const { Stripe } = require("stripe");
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+   const StripeModule = require("stripe");
+   const Stripe = StripeModule.Stripe || StripeModule.default || StripeModule;
 
 // Precios de Stripe (IDs de precio de pago único) por plan.
 const PRICES = {
