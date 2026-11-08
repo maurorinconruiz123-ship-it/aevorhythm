@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aevorhythm — Looksmaxing sin humo</title>
+<meta name="description" content="Looksmaxing honesto: piel, pelo, físico, postura, estilo y sueño con evidencia. Sin cirugía, sin hormonas, sin promesas milagro.">
+<meta property="og:title" content="Aevorhythm — Looksmaxing sin humo">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#050505">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='11' fill='%23d4af37'/%3E%3Cpath d='M8 26h9l4-12 6 20 4-8h9' fill='none' stroke='%230b0904' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050505;--bg2:#0d0c0a;--tx:#f4eedd;--mu:#a89f8a;--ln:#28231a;--acc:#d4af37;--on:#0b0904;--gold:linear-gradient(135deg,#f6e3a1,#d4af37 48%,#9a7316);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--disp:"Cormorant Garamond",Georgia,"Times New Roman",serif}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 1rem/1.75 Inter,system-ui,sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(12px)}
+body::after{content:"";position:fixed;inset:0;z-index:30;pointer-events:none;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:inherit}.w{width:min(1120px,100% - 48px);margin-inline:auto}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 78%,transparent);backdrop-filter:blur(18px);border-bottom:1px solid var(--ln)}
+header .w{display:flex;align-items:center;gap:26px;min-height:68px}
+.logo{display:flex;align-items:center;gap:12px;font:600 .78rem Inter;letter-spacing:.34em;text-decoration:none;margin-right:auto}
+.logo svg{width:28px;height:28px}.logo rect{fill:#d4af37}.logo path{stroke:var(--on)}.logo b{color:var(--acc);font-weight:600}
+nav{display:flex;gap:28px;align-items:center;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase}nav a{text-decoration:none;opacity:.7;transition:opacity .3s,color .3s}nav a:hover{opacity:1;color:var(--acc)}
+.lang{border:1px solid var(--ln);background:none;color:var(--tx);border-radius:100px;padding:6px 14px;font:600 .72rem Inter;letter-spacing:.14em;cursor:pointer;transition:border-color .3s}.lang:hover{border-color:var(--acc)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 34px;border-radius:100px;background:var(--gold);color:var(--on);font:600 .78rem Inter;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;border:0;position:relative;overflow:hidden;cursor:pointer;transition:transform .4s cubic-bezier(.2,.7,.2,1),box-shadow .4s;box-shadow:0 10px 30px -14px var(--acc)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 16px 40px -14px var(--acc)}.btn::after{content:"";position:absolute;top:0;left:-70%;width:35%;height:100%;background:linear-gradient(100deg,transparent,#fff7,transparent);transform:skewX(-20deg);animation:shine 7s 2s infinite}
+.btn.ghost{background:none;color:var(--tx);border:1px solid color-mix(in srgb,var(--tx) 25%,transparent);box-shadow:none}.btn.ghost::after{display:none}.btn.ghost:hover{border-color:var(--acc);color:var(--acc)}
+.btn[aria-disabled=true]{opacity:.5;pointer-events:none}.btn[aria-disabled=true]::after{display:none}
+.hero{position:relative;padding:clamp(56px,10vw,130px) 0 90px;overflow:hidden;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(640px circle at var(--mx,74%) var(--my,30%),color-mix(in srgb,var(--acc) 14%,transparent),transparent 65%),radial-gradient(900px 500px at 10% 100%,color-mix(in srgb,var(--acc) 6%,transparent),transparent)}
+.hero .w{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center}
+.kick{display:flex;align-items:center;gap:14px;font:500 .72rem Inter;letter-spacing:.32em;text-transform:uppercase;color:var(--acc);margin:0 0 26px}.kick::before{content:"";width:44px;height:1px;background:var(--acc)}
+h1{font:500 clamp(3.4rem,10.4vw,8.4rem)/.9 var(--disp);letter-spacing:-.025em;margin:0}
+h1 span{display:block}h1 .l2{color:var(--acc);font-style:italic;font-weight:500}h1 .l2 i{background:linear-gradient(180deg,#f9ebb4,#d4af37 52%,#8a6414);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding-right:.04em}
+h1 i{display:inline-block;font-style:inherit;animation:up 1.2s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i)*55ms)}
+.rot{margin:30px 0 0;font:italic 500 clamp(1.3rem,2.6vw,1.8rem) var(--disp);min-height:1.5em;color:var(--mu)}.rot b{color:var(--tx);font-weight:500;display:inline-block;transition:opacity .5s,transform .5s,filter .5s}.rot b.out{opacity:0;transform:translateY(-8px);filter:blur(4px)}
+.sub{max-width:52ch;color:var(--mu);margin:20px 0 34px;font-size:1.02rem}.cta{display:flex;flex-wrap:wrap;gap:14px}
+.stats{display:flex;gap:48px;margin-top:56px;padding-top:28px;border-top:1px solid var(--ln);flex-wrap:wrap}.stat b{display:block;font:500 2.8rem/1 var(--disp);color:var(--tx)}.stat span{color:var(--mu);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase}
+.orb{position:relative;aspect-ratio:1;max-width:430px;justify-self:center;width:100%}
+.orb i{position:absolute;inset:0;border-radius:50%;border:1px solid color-mix(in srgb,var(--acc) 55%,transparent);animation:spin 60s linear infinite}
+.orb i:nth-child(2){inset:11%;border:1px dashed color-mix(in srgb,var(--acc) 30%,transparent);animation-duration:90s;animation-direction:reverse}
+.orb i:nth-child(3){inset:24%;animation:none;border-color:color-mix(in srgb,var(--acc) 40%,transparent);background:radial-gradient(circle,color-mix(in srgb,var(--acc) 12%,transparent),transparent 70%);box-shadow:0 0 80px -10px color-mix(in srgb,var(--acc) 40%,transparent)}
+.orb svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.orb path{fill:none;stroke:var(--acc);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:beat 4.5s ease-in-out infinite;filter:drop-shadow(0 0 6px var(--acc))}
+.mq{border-block:1px solid var(--ln);overflow:hidden}.mq div{display:flex;width:max-content;animation:mq 60s linear infinite}
+.mq span{padding:22px 34px;font:italic 500 1.5rem var(--disp);color:var(--mu);white-space:nowrap}.mq span::after{content:"◆";font:.5rem Inter;color:var(--acc);margin-left:68px;vertical-align:middle}
+section{padding:clamp(70px,10vw,130px) 0}h2{font:500 clamp(2.3rem,5.6vw,4.2rem)/1 var(--disp);letter-spacing:-.02em;margin:0 0 18px;text-wrap:balance}
+.lede{color:var(--mu);max-width:58ch;margin:0 0 50px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:linear-gradient(160deg,color-mix(in srgb,var(--tx) 5%,transparent),transparent 60%),var(--bg2);border:1px solid var(--ln);border-radius:20px;padding:34px;box-shadow:inset 0 1px 0 color-mix(in srgb,var(--tx) 8%,transparent);transition:transform .3s,border-color .5s,box-shadow .5s;will-change:transform}
+.card:hover{border-color:color-mix(in srgb,var(--acc) 50%,transparent);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--tx) 10%,transparent),0 30px 60px -40px var(--acc)}.card h3{font:500 1.7rem/1.1 var(--disp);margin:0 0 12px}.card p{margin:0;color:var(--mu)}
+.card .no{font:italic 500 1.2rem var(--disp);color:var(--acc);display:block;margin-bottom:22px}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}.tabs button{background:none;border:1px solid var(--ln);color:var(--mu);border-radius:100px;padding:10px 24px;font:500 .78rem Inter;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:all .4s}.tabs button:hover{color:var(--tx);border-color:color-mix(in srgb,var(--acc) 50%,transparent)}
+.tabs button[aria-selected=true]{background:var(--gold);color:var(--on);border-color:var(--acc)}
+.panel{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;background:var(--bg2);border:1px solid var(--ln);border-radius:24px;padding:clamp(26px,5vw,56px);min-height:300px}
+.panel>*{animation:up .8s cubic-bezier(.2,.7,.2,1) both}.panel h3{font:italic 500 clamp(2.4rem,5vw,3.8rem)/1 var(--disp);margin:0;color:var(--acc)}
+.panel ul{list-style:none;padding:0;margin:0}.panel li{padding:16px 0 16px 34px;border-bottom:1px solid var(--ln);position:relative;color:var(--mu)}.panel li:last-child{border:0}.panel li::before{content:"";position:absolute;left:2px;top:1.55em;width:14px;height:1px;background:var(--acc)}
+.start{margin-top:22px;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--mu)}.start b{color:var(--tx);font-weight:600}
+.chart{background:var(--bg2);border:1px solid var(--ln);border-radius:24px;padding:clamp(18px,4vw,40px)}.chart svg{width:100%;height:auto;display:block;overflow:visible}
+.chart .ln{fill:none;stroke:var(--acc);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 3.2s cubic-bezier(.3,.6,.2,1);filter:drop-shadow(0 0 6px color-mix(in srgb,var(--acc) 60%,transparent))}.chart.in .ln{stroke-dashoffset:0}
+.chart .ar{fill:color-mix(in srgb,var(--acc) 10%,transparent);opacity:0;transition:opacity 1.4s 2.4s}.chart.in .ar{opacity:1}.chart .g{stroke:var(--ln)}.chart .dt{fill:var(--acc);stroke:var(--bg2);stroke-width:3}.chart text{fill:var(--mu);font:11px Inter}
+.chart input{width:100%;accent-color:var(--acc);margin-top:18px}.read{margin:10px 0 0;color:var(--mu)}.read b{color:var(--acc);font-weight:600}.small{color:var(--mu);font-size:.8rem;opacity:.8}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}.plan{display:flex;flex-direction:column}.plan.hot{border-color:color-mix(in srgb,var(--acc) 60%,transparent);background:radial-gradient(120% 70% at 50% 0,color-mix(in srgb,var(--acc) 12%,transparent),transparent),var(--bg2);box-shadow:0 40px 80px -50px var(--acc)}
+.tag{align-self:flex-start;font:600 .64rem Inter;letter-spacing:.24em;text-transform:uppercase;background:var(--gold);color:var(--on);padding:6px 14px;border-radius:100px;margin-bottom:20px}.tag.soft{background:none;color:var(--acc);border:1px solid color-mix(in srgb,var(--acc) 50%,transparent)}
+.pr{font:500 4rem/1 var(--disp);margin:14px 0 4px}.hot .pr{background:var(--gold);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}.pr small{font:500 .78rem Inter;color:var(--mu);letter-spacing:.1em;margin-left:6px}
+.plan ul{list-style:none;padding:0;margin:22px 0 30px;border-top:1px solid var(--ln)}.plan li{padding:12px 0 12px 30px;position:relative;color:var(--mu);border-bottom:1px solid var(--ln);font-size:.94rem}.plan li::before{content:"";position:absolute;left:2px;top:1.35em;width:12px;height:1px;background:var(--acc)}.plan .btn{margin-top:auto}
+details{border-bottom:1px solid var(--ln)}summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;padding:24px 0;font:500 1.55rem/1.2 var(--disp)}summary::-webkit-details-marker{display:none}summary::after{content:"+";color:var(--acc);font:300 1.8rem/1 Inter;transition:transform .4s}details[open] summary::after{transform:rotate(45deg)}details p{margin:0 0 24px;color:var(--mu);max-width:68ch}
+#refund p{color:var(--mu);max-width:72ch;margin:0 0 16px}.small a{color:var(--acc)}
+.ct{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}.ct p{margin:0;max-width:52ch;font-size:1.05rem}#legalacc details p{margin:0 0 14px}footer a{text-decoration:none;border-bottom:1px solid var(--ln)}footer a:hover{color:var(--acc)}
+footer{border-top:1px solid var(--ln);padding:44px 0;color:var(--mu);font-size:.8rem;letter-spacing:.04em}footer .w{display:flex;flex-wrap:wrap;gap:14px 30px;justify-content:space-between}
+.rv{opacity:0;transform:translateY(34px);filter:blur(6px);transition:opacity 1.1s cubic-bezier(.2,.7,.2,1),transform 1.1s cubic-bezier(.2,.7,.2,1),filter 1.1s}.rv.in{opacity:1;transform:none;filter:none}.card.rv.in{transform:perspective(1000px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .3s,opacity 1.1s,border-color .5s,box-shadow .5s}
+@keyframes up{from{opacity:0;transform:translateY(28px);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes mq{to{transform:translateX(-50%)}}@keyframes shine{to{left:150%}}@keyframes beat{0%{stroke-dashoffset:1}60%,100%{stroke-dashoffset:0}}
+@media(max-width:860px){.hero .w,.panel{grid-template-columns:1fr}.grid3,.plans{grid-template-columns:1fr}nav a:not(.btn){display:none}.orb{max-width:300px}.stats{gap:30px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none;filter:none}.orb path,.chart .ln{stroke-dashoffset:0}.chart .ar{opacity:1}}
+</style>
+</head>
+<body>
+<header><div class="w">
+<a class="logo" href="#top" aria-label="Aevorhythm"><svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="11" fill="#cdfb91"/><path d="M8 26h9l4-12 6 20 4-8h9" fill="none" stroke="#172017" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>AEVORHYTHM<b>.</b></a>
+<nav><a href="#modulos" data-t="n1"></a><a href="#curva" data-t="n2"></a><a href="#planes" data-t="n3"></a><a href="#faq" data-t="n4"></a><button class="lang" id="lang" type="button" aria-label="Language">EN</button></nav>
+</div></header>
+<main id="top">
+<div class="hero"><div class="w">
+<div>
+<p class="kick" data-t="kick"></p>
+<h1 aria-live="off"><span class="l1" data-s>Looksmaxing</span><span class="l2" data-s id="h1b"></span></h1>
+<p class="rot" aria-hidden="true"><span data-t="rotl"></span> <b id="rot"></b></p>
+<p class="sub" data-t="sub"></p>
+<div class="cta"><a class="btn" href="#planes" data-t="c1"></a><a class="btn ghost" href="#modulos" data-t="c2"></a></div>
+<div class="stats">
+<div class="stat"><b data-n="6">0</b><span data-t="s1"></span></div>
+<div class="stat"><b data-n="12">0</b><span data-t="s2"></span></div>
+<div class="stat"><b data-n="0">0</b><span data-t="s3"></span></div>
+</div>
+</div>
+<div class="orb" aria-hidden="true"><i></i><i></i><i></i><svg viewBox="0 0 48 48"><path pathLength="1" d="M8 26h9l4-12 6 20 4-8h9"/></svg></div>
+</div></div>
+<div class="mq" aria-hidden="true"><div id="mq"></div></div>
+
+<section><div class="w">
+<h2 class="rv" data-t="m_h"></h2><p class="lede rv" data-t="m_l"></p>
+<div class="grid3">
+<div class="card rv"><span class="no">01</span><h3 data-t="m1h"></h3><p data-t="m1p"></p></div>
+<div class="card rv"><span class="no">02</span><h3 data-t="m2h"></h3><p data-t="m2p"></p></div>
+<div class="card rv"><span class="no">03</span><h3 data-t="m3h"></h3><p data-t="m3p"></p></div>
+</div></div></section>
+
+<section id="modulos" style="padding-top:0"><div class="w">
+<h2 class="rv" data-t="t_h"></h2><p class="lede rv" data-t="t_l"></p>
+<div class="tabs rv" role="tablist" id="tabs"></div>
+<div class="panel rv" id="panel" role="tabpanel"></div>
+</div></section>
+
+<section id="curva" style="padding-top:0"><div class="w">
+<h2 class="rv" data-t="c_h"></h2><p class="lede rv" data-t="c_l"></p>
+<figure class="chart rv" id="chart" style="margin:0">
+<svg viewBox="0 0 600 250" role="img" aria-label="Curve">
+<g id="gr"></g><path class="ar" id="ar"/><path class="ln" id="ln" pathLength="1"/><circle class="dt" id="dt" r="7"/>
+<text x="30" y="242">0</text><text x="170" y="242">13</text><text x="305" y="242">26</text><text x="440" y="242">39</text><text x="570" y="242">52</text>
+</svg>
+<input id="wk" type="range" min="0" max="52" value="12" aria-label="Weeks">
+<p class="read"><span data-t="c_w"></span> <b id="wv">12</b> · <span data-t="c_i"></span> <b id="iv"></b>/100</p>
+<p class="small" data-t="c_n"></p>
+</figure>
+</div></section>
+
+<section id="planes" style="padding-top:0"><div class="w">
+<h2 class="rv" data-t="p_h"></h2><p class="lede rv" data-t="p_l"></p>
+<div class="plans">
+<div class="card plan rv"><span class="tag soft" data-t="p0t"></span><h3>Starter</h3><div class="pr">€0</div><ul><li data-t="p0a"></li><li data-t="p0b"></li><li data-t="p0c"></li></ul><a class="btn ghost" data-plan="free" data-t="p0b2"></a></div>
+<div class="card plan rv"><span class="tag soft" data-t="p1t"></span><h3>Foundations</h3><div class="pr">€19<small data-t="once"></small></div><ul><li data-t="p1a"></li><li data-t="p1b"></li><li data-t="p1c"></li></ul><a class="btn" data-plan="foundations" data-t="buy1"></a></div>
+<div class="card plan hot rv"><span class="tag" data-t="p2t"></span><h3>The Long Game Lab</h3><div class="pr">€39<small data-t="once"></small></div><ul><li data-t="p2a"></li><li data-t="p2b"></li><li data-t="p2c"></li><li data-t="p2d"></li></ul><a class="btn" data-plan="complete" data-t="buy2"></a></div>
+</div><p class="small rv" style="margin-top:24px"><span data-t="r_n"></span> <a href="#politica" data-t="r_l"></a></p></div></section>
+
+<section id="faq" style="padding-top:0"><div class="w">
+<h2 class="rv" data-t="f_h"></h2><div id="faqs" class="rv"></div>
+</div></section>
+<section id="politica" style="padding-top:0"><div class="w"><h2 class="rv" data-t="r_h"></h2><div class="rv" id="refund"><p data-t="r1"></p><p data-t="r2"></p><p data-t="r3"></p></div></div></section>
+<section id="contacto" style="padding-top:0"><div class="w"><h2 class="rv" data-t="ct_h"></h2><div class="card ct rv"><p data-t="ct_p"></p><a class="btn" href="mailto:tenvioagency@gmail.com" data-t="ct_b"></a></div></div></section>
+<section id="legal" style="padding-top:0"><div class="w"><h2 class="rv" data-t="lg_h"></h2><div id="legalacc" class="rv"></div></div></section>
+</main>
+<footer><div class="w"><span>© 2026 Aevorhythm · <a href="mailto:tenvioagency@gmail.com">tenvioagency@gmail.com</a></span><span><a href="#contacto" data-t="fl1"></a> · <a href="#legal" data-t="fl2"></a> · <a href="#politica" data-t="fl3"></a></span><span data-t="legal"></span></div></footer>
+
+<script>
+// ===== CONFIG: pega aquí tus enlaces de pago de Stripe (https://buy.stripe.com/...) =====
+var LINKS={foundations:"https://buy.stripe.com/5kQcN7dxl4dW0OB3itgQE00",complete:"https://buy.stripe.com/5kQ8wR0Kzh0IfJvaKVgQE01"};
+var FREE="mailto:tenvioagency@gmail.com?subject=Gu%C3%ADa%20Starter";
+// =========================================================================================
+var D={es:{n1:"Módulos",n2:"Constancia",n3:"Planes",n4:"FAQ",kick:"Looksmaxing honesto · edición 2026",h1b:"sin humo.",rotl:"Sube de nivel tu",words:"piel,pelo,físico,postura,estilo,sueño",
+sub:"El sistema para verte mejor con lo que sí funciona: rutinas de piel, pelo, físico, postura, estilo y sueño. Cero cirugía, cero hormonas, cero promesas milagro.",c1:"Ver planes",c2:"Explorar módulos",s1:"módulos",s2:"semanas de plan",s3:"promesas milagro",
+m_h:"Softmax primero",m_l:"La mayor parte del cambio visible viene de lo básico bien hecho y repetido. Eso es lo que enseñamos.",m1h:"Basado en evidencia",m1p:"Si no tiene respaldo, no entra. Sin mewing milagro, sin bonesmashing, sin esteroides.",m2h:"Hábitos, no trucos",m2p:"Rutinas pequeñas y sostenidas ganan a los cambios drásticos que no duran.",m3h:"Tú mandas",m3p:"Pasos claros, sin humillar tu cara. Mejoras tu aspecto, no te comparas con nadie.",
+t_h:"Seis módulos. Un sistema.",t_l:"Elige un área y mira cómo se trabaja. Empieza por una y suma el resto.",start:"Empieza por",
+c_h:"La constancia compone",c_l:"Las primeras semanas parecen lentas. Después los hábitos te empujan solos. Mueve el control.",c_w:"Semana",c_i:"Índice de progreso",c_n:"Curva ilustrativa, no una medición ni una promesa. El progreso real varía según cada persona.",
+p_h:"Elige tu plan",p_l:"Pago único, sin suscripción. Empieza gratis y sube cuando quieras.",once:" pago único",p0t:"Gratis",p0a:"Guía de 7 hábitos de arranque",p0b:"Checklist semanal",p0c:"Rutina mínima de piel y sueño",p0b2:"Pedir la guía",
+p1t:"Para empezar",p1a:"Guía base en PDF: piel, pelo y físico",p1b:"Plan de 12 semanas paso a paso",p1c:"Checklist semanal imprimible",buy1:"Comprar Foundations · €19",
+p2t:"Recomendado",p2a:"Todo lo de Foundations",p2b:"Módulos de postura, estilo y sueño",p2c:"Plantillas de seguimiento",p2d:"Actualizaciones durante un año",buy2:"Comprar Lab · €39",soon:"Próximamente",
+f_h:"Preguntas frecuentes",r_h:"Devoluciones y reembolsos",r1:"Los planes de pago son contenido digital que se envía por correo electrónico después del pago. Por eso no se aceptan devoluciones ni reembolsos una vez enviados los archivos.",r2:"Al comprar, aceptas expresamente que la entrega comience de inmediato y reconoces que, una vez entregado el contenido digital, pierdes el derecho de desistimiento de 14 días que la ley otorga a los consumidores en otros casos.",r3:"Si el archivo llega dañado o no lo recibes, escribe a tenvioagency@gmail.com y lo solucionamos. Esta política no limita los derechos que la ley te reconoce como consumidor.",r_n:"Producto digital: sin devoluciones tras la entrega.",r_l:"Ver política",ct_h:"Contacto",ct_p:"¿Dudas sobre un plan, un pago o tus archivos? Escríbenos y te respondemos por correo.",ct_b:"Escribir por email",lg_h:"Información legal",fl1:"Contacto",fl2:"Legal",fl3:"Reembolsos",
+lg:[["Aviso legal","<p><b>Titular:</b> Mauro Rincón Ruiz · <b>NIF/DNI:</b> 04271135N · <b>Domicilio:</b> Avenida Río Guadarrama, 7 · <b>Contacto:</b> tenvioagency@gmail.com</p><p>Aevorhythm es un proyecto educativo que ofrece guías digitales sobre hábitos de cuidado personal. El contenido es informativo y no sustituye el consejo de un profesional sanitario. Los textos, el diseño y las marcas pertenecen al titular; no pueden copiarse ni revenderse sin permiso.</p>"],
+["Política de privacidad","<p><b>Responsable:</b> el titular indicado en el aviso legal. <b>Datos que tratamos:</b> tu correo y el contenido de tus mensajes si nos escribes, y los datos que facilites al pagar (nombre, correo y facturación). Los datos de tu tarjeta los gestiona Stripe y nunca los recibimos.</p><p><b>Finalidad:</b> responder consultas, gestionar la compra y enviarte los archivos. <b>Base legal:</b> la ejecución de la compra, tu consentimiento y las obligaciones legales (por ejemplo, fiscales). <b>Conservación:</b> el tiempo necesario y los plazos que marque la ley.</p><p><b>Destinatarios:</b> Stripe (pagos), el proveedor de correo, GitHub (alojamiento) y Google Fonts (tipografías). <b>Derechos:</b> puedes pedir acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a tenvioagency@gmail.com, y reclamar ante la Agencia Española de Protección de Datos (aepd.es).</p>"],
+["Condiciones de venta","<p>Vendemos guías digitales de pago único, con precios en euros, que se envían por correo electrónico tras confirmarse el pago. La licencia es personal: no puedes compartir, publicar ni revender los archivos.</p><p>Los planes de pago son para mayores de 18 años. Las devoluciones y reembolsos se rigen por la política de esta misma página. Se aplica la ley española, sin perjuicio de los derechos que la normativa reconoce a los consumidores de tu país.</p>"],
+["Cookies y almacenamiento","<p>Esta web no usa cookies de seguimiento ni publicidad. Solo guarda en tu navegador tu idioma preferido. Al cargar las tipografías desde Google Fonts, Google puede recibir tu dirección IP. El pago se hace en una página de Stripe, que aplica sus propias políticas.</p>"]],legal:"Contenido educativo. No sustituye el consejo médico. Planes de pago para mayores de 18 años. Pagos con Stripe.",
+mods:[["Piel",["Limpieza suave, hidratante y protector solar diario: lo demás es ruido.","Retinoide solo si lo toleras y con paciencia.","Acné persistente: dermatólogo, no TikTok."],"SPF cada mañana"],["Pelo",["Un corte que encaje con tu cara y tu tipo de pelo.","Cuero cabelludo cuidado y rutina simple.","Si se cae, consulta médica antes de comprar nada."],"Un buen barbero"],["Físico",["Fuerza tres días a la semana y proteína suficiente.","Pasos diarios y déficit moderado si buscas definición.","Sin esteroides ni atajos peligrosos."],"Tres sesiones por semana"],["Postura",["Movilidad y fuerza de espalda, cuello y core.","Pausas de movimiento si trabajas sentado.","El dolor persistente lo valora un fisio."],"Una pausa cada hora"],["Estilo",["Ajuste y talla antes que marcas.","Una paleta de colores que te favorezca.","Una cápsula pequeña bien combinada."],"Probar tallas"],["Sueño",["Hora fija de acostarse y pantallas fuera.","Luz por la mañana y cafeína con cabeza.","Dormir bien se nota en piel, energía y ánimo."],"Hora fija"]],
+faq:[["¿Incluye cirugía, hormonas o consejos extremos?","No. Solo hábitos y decisiones razonables. Para cualquier tema médico o estético invasivo, acude a un profesional."],["¿Cuándo veré resultados?","Depende de cada persona. Algunos cambios (sueño, postura, piel) se notan en semanas; el físico necesita meses. La constancia es la clave."],["¿Cómo recibo los archivos?","Tras pagar, te los enviamos al correo que uses en el pago."],["¿Para quién es?","Para mayores de 18 años. Si eres menor, habla antes con tu familia o tu médico."]]},
+en:{n1:"Modules",n2:"Consistency",n3:"Plans",n4:"FAQ",kick:"Honest looksmaxing · 2026 edition",h1b:"minus the BS.",rotl:"Level up your",words:"skin,hair,physique,posture,style,sleep",
+sub:"The system to look better with what actually works: skin, hair, physique, posture, style and sleep routines. Zero surgery, zero hormones, zero miracle promises.",c1:"See plans",c2:"Explore modules",s1:"modules",s2:"week plan",s3:"miracle promises",
+m_h:"Softmax first",m_l:"Most visible change comes from the basics done well and repeated. That is what we teach.",m1h:"Evidence-based",m1p:"No backing, no entry. No miracle mewing, no bonesmashing, no steroids.",m2h:"Habits, not hacks",m2p:"Small, sustained routines beat drastic changes that do not last.",m3h:"You are in charge",m3p:"Clear steps, no shaming your face. You improve how you look, you do not compare yourself to anyone.",
+t_h:"Six modules. One system.",t_l:"Pick an area and see how it works. Start with one and add the rest.",start:"Start with",
+c_h:"Consistency compounds",c_l:"The first weeks feel slow. Then habits carry you. Move the slider.",c_w:"Week",c_i:"Progress index",c_n:"Illustrative curve, not a measurement or a promise. Real progress varies from person to person.",
+p_h:"Choose your plan",p_l:"One-time payment, no subscription. Start free and upgrade whenever you want.",once:" one-time",p0t:"Free",p0a:"7-habit starter guide",p0b:"Weekly checklist",p0c:"Minimum skin and sleep routine",p0b2:"Get the guide",
+p1t:"To get started",p1a:"Core PDF guide: skin, hair and physique",p1b:"Step-by-step 12-week plan",p1c:"Printable weekly checklist",buy1:"Buy Foundations · €19",
+p2t:"Recommended",p2a:"Everything in Foundations",p2b:"Posture, style and sleep modules",p2c:"Tracking templates",p2d:"One year of updates",buy2:"Buy Lab · €39",soon:"Coming soon",
+f_h:"FAQ",r_h:"Returns and refunds",r1:"Paid plans are digital content delivered by email after payment. For that reason, returns and refunds are not accepted once the files have been sent.",r2:"By purchasing, you expressly agree that delivery starts immediately and acknowledge that, once the digital content is delivered, you lose the 14-day right of withdrawal that the law grants consumers in other cases.",r3:"If the file arrives damaged or you do not receive it, write to tenvioagency@gmail.com and we will fix it. This policy does not limit the rights the law gives you as a consumer.",r_n:"Digital product: no returns after delivery.",r_l:"See policy",ct_h:"Contact",ct_p:"Questions about a plan, a payment or your files? Write to us and we will reply by email.",ct_b:"Send an email",lg_h:"Legal information",fl1:"Contact",fl2:"Legal",fl3:"Refunds",
+lg:[["Legal notice","<p><b>Owner:</b> Mauro Rincón Ruiz · <b>Tax ID:</b> 04271135N · <b>Address:</b> Avenida Río Guadarrama, 7 · <b>Contact:</b> tenvioagency@gmail.com</p><p>Aevorhythm is an educational project offering digital guides on personal care habits. The content is informational and does not replace the advice of a health professional. Texts, design and brands belong to the owner and may not be copied or resold without permission.</p>"],
+["Privacy policy","<p><b>Controller:</b> the owner named in the legal notice. <b>Data we process:</b> your email and message content if you write to us, and the data you provide at payment (name, email and billing). Your card details are handled by Stripe and we never receive them.</p><p><b>Purpose:</b> answering enquiries, handling your purchase and sending you the files. <b>Legal basis:</b> performance of the purchase, your consent and legal obligations (for example, tax). <b>Retention:</b> as long as needed and for the periods required by law.</p><p><b>Recipients:</b> Stripe (payments), the email provider, GitHub (hosting) and Google Fonts (typefaces). <b>Rights:</b> you can request access, rectification, erasure, objection, restriction and portability by writing to tenvioagency@gmail.com, and complain to the Spanish Data Protection Agency (aepd.es).</p>"],
+["Terms of sale","<p>We sell one-time digital guides, priced in euros, sent by email once payment is confirmed. The licence is personal: you may not share, publish or resell the files.</p><p>Paid plans are for adults aged 18 and over. Returns and refunds follow the policy on this page. Spanish law applies, without prejudice to the rights that the rules of your country give consumers.</p>"],
+["Cookies and storage","<p>This website uses no tracking or advertising cookies. It only stores your preferred language in your browser. Loading typefaces from Google Fonts means Google may receive your IP address. Payment takes place on a Stripe page, which applies its own policies.</p>"]],legal:"Educational content. Not medical advice. Paid plans for ages 18+. Payments by Stripe.",
+mods:[["Skin",["Gentle cleanser, moisturizer and daily sunscreen: the rest is noise.","Retinoid only if you tolerate it, and with patience.","Persistent acne: see a dermatologist, not TikTok."],"SPF every morning"],["Hair",["A cut that fits your face and hair type.","Cared-for scalp and a simple routine.","Hair loss: see a doctor before buying anything."],"A good barber"],["Physique",["Strength training three days a week and enough protein.","Daily steps and a moderate deficit if you want definition.","No steroids or dangerous shortcuts."],"Three sessions a week"],["Posture",["Mobility and strength for back, neck and core.","Movement breaks if you sit all day.","Persistent pain: ask a physio."],"A break every hour"],["Style",["Fit and size before brands.","A color palette that suits you.","A small capsule wardrobe that mixes well."],"Try sizes"],["Sleep",["Fixed bedtime and screens off.","Morning light and caffeine with sense.","Good sleep shows in skin, energy and mood."],"Fixed bedtime"]],
+faq:[["Does it include surgery, hormones or extreme advice?","No. Only habits and reasonable decisions. For anything medical or invasive, see a professional."],["When will I see results?","It depends on the person. Some changes (sleep, posture, skin) show in weeks; physique takes months. Consistency is the key."],["How do I receive the files?","After paying, we email them to the address you used at checkout."],["Who is it for?","Adults 18+. If you are younger, talk to your family or doctor first."]]}};
+var $=function(s,r){return(r||document).querySelector(s)},$$=function(s,r){return[].slice.call((r||document).querySelectorAll(s))};
+var lang=(navigator.language||"es").slice(0,2)==="en"?"en":"es";try{lang=localStorage.getItem("lg")||lang}catch(e){}
+var tabI=0,words=[],ri=0,rt;
+function split(el){var t=el.textContent;el.setAttribute("aria-label",t);el.innerHTML=[].slice.call(t).map(function(c,i){return'<i aria-hidden="true" style="--i:'+i+'">'+(c===" "?"&nbsp;":c)+"</i>"}).join("")}
+function tabsR(){var d=D[lang];$("#tabs").innerHTML=d.mods.map(function(m,i){return'<button role="tab" aria-selected="'+(i===tabI)+'" data-i="'+i+'">'+m[0]+"</button>"}).join("");
+$$("#tabs button").forEach(function(b){b.onclick=function(){tabI=+b.dataset.i;tabsR()}});
+var m=d.mods[tabI];var p=$("#panel");p.innerHTML="<div><h3>"+m[0]+'</h3><p class="start">'+d.start+": <b>"+m[2]+"</b></p></div><ul>"+m[1].map(function(x){return"<li>"+x+"</li>"}).join("")+"</ul>"}
+function render(){var d=D[lang];document.documentElement.lang=lang;$("#lang").textContent=lang==="es"?"EN":"ES";
+$$("[data-t]").forEach(function(e){e.textContent=d[e.dataset.t]});
+$("#h1b").textContent=d.h1b;$$("[data-s]").forEach(function(e){if(!e.dataset.o)e.dataset.o=1;split(e)});
+words=d.words.split(",");$("#rot").textContent=words[ri%words.length];
+var mq=$("#mq");mq.innerHTML=("<span>"+d.mods.map(function(m){return m[0]}).join("</span><span>")+"</span>").repeat(4);
+tabsR();
+$("#faqs").innerHTML=d.faq.map(function(q){return"<details><summary>"+q[0]+"</summary><p>"+q[1]+"</p></details>"}).join("");
+$("#legalacc").innerHTML=d.lg.map(function(q,i){return"<details id=\""+["aviso","privacidad","condiciones","cookies"][i]+"\"><summary>"+q[0]+"</summary>"+q[1]+"</details>"}).join("");
+$$("[data-plan]").forEach(function(a){var p=a.dataset.plan,u=p==="free"?FREE:LINKS[p];if(u){a.href=u;a.removeAttribute("aria-disabled")}else{a.removeAttribute("href");a.setAttribute("aria-disabled","true");a.textContent=d.soon}});
+curve()}
+$("#lang").onclick=function(){lang=lang==="es"?"en":"es";try{localStorage.setItem("lg",lang)}catch(e){}render()};
+// rotating word
+rt=setInterval(function(){var b=$("#rot");b.classList.add("out");setTimeout(function(){ri++;b.textContent=words[ri%words.length];b.classList.remove("out")},300)},2100);
+// curve
+function P(w){return 100*(1-Math.exp(-w/16))-6*Math.exp(-Math.pow((w-20)/2.2,2))}
+function X(w){return 30+w*540/52}function Y(v){return 215-1.85*v}
+function curve(){var s="",i;for(i=0;i<=52;i++)s+=(i?"L":"M")+X(i).toFixed(1)+" "+Y(P(i)).toFixed(1);
+$("#ln").setAttribute("d",s);$("#ar").setAttribute("d",s+"L"+X(52)+" 215L"+X(0)+" 215Z");
+$("#gr").innerHTML=[40,95,150,215].map(function(y){return'<line class="g" x1="30" x2="570" y1="'+y+'" y2="'+y+'"/>'}).join("");upd()}
+function upd(){var w=+$("#wk").value;$("#dt").setAttribute("cx",X(w));$("#dt").setAttribute("cy",Y(P(w)));$("#wv").textContent=w;$("#iv").textContent=Math.round(P(w))}
+$("#wk").oninput=upd;
+// reveal, counters, tilt, spotlight
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;e.target.classList.add("in");io.unobserve(e.target)})},{threshold:.15});
+$$(".rv,.chart").forEach(function(e){io.observe(e)});
+var co=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;var el=e.target,n=+el.dataset.n,t0=performance.now();co.unobserve(el);(function f(t){var k=Math.min(1,(t-t0)/1400);el.textContent=Math.round(n*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(f)})(t0)})});
+$$("[data-n]").forEach(function(e){co.observe(e)});
+$$(".card").forEach(function(c){c.addEventListener("pointermove",function(e){var b=c.getBoundingClientRect();c.style.setProperty("--ry",((e.clientX-b.left)/b.width-.5)*7+"deg");c.style.setProperty("--rx",(.5-(e.clientY-b.top)/b.height)*7+"deg")});c.addEventListener("pointerleave",function(){c.style.setProperty("--rx","0deg");c.style.setProperty("--ry","0deg")})});
+var h=$(".hero");h.addEventListener("pointermove",function(e){var b=h.getBoundingClientRect();h.style.setProperty("--mx",e.clientX-b.left+"px");h.style.setProperty("--my",e.clientY-b.top+"px")});
+render();
+function oh(){var e=location.hash&&document.getElementById(location.hash.slice(1));if(e&&e.tagName==="DETAILS"){e.open=true;setTimeout(function(){e.scrollIntoView({behavior:"smooth",block:"center"})},300)}}
+addEventListener("hashchange",oh);oh();
+</script>
+</body>
+</html>
