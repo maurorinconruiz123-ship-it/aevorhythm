@@ -1,0 +1,7 @@
+{
+  "name": "aevorhythm",
+  "private": true,
+  "dependencies": {
+    "stripe": "latest"
+  }
+}
